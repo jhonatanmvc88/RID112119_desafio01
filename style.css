@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    font-family: 'Inter';
+
+}
+
+#secao-topo {
+    width: 1440px;
+    height: 300px;
+    background-color: #303030;
+}
+
+
+#titulo-topo {
+    color: #FFFFFF;
+    width: 1024px;
+    height: 72px;
+    padding-top: 104px;
+    padding-left: 62px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#subtitulo-topo {
+    color: #FFFFFF;
+    width: 1024px;
+    height: 28px;
+    margin-left: 62px;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+#secao-informacao {
+    background-color: #F9F9F9;
+    width: 1440px;
+    height: 180px;
+    top: -42px;
+    left: -656px;
+    gap: 0px;
+    opacity: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+
+    
+}
+
+.texto-informacao{
+    font-family: "Inter";
+    font-size: 30px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 100px;
+
+
+}
+
+span{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#secao-historia{
+
+    display: grid;
+    grid-auto-flow: column;
+}
+
+p{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-right: 10px;
+}
+
+#texto-historia{
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+img{
+    width: 410px;
+    height: 605px;
+    top: 781px;
+    left: 800px;
+    border-radius: 30px;
+}
+
+#formulario{
+    width: 1440px;
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+input{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+button{
+    background-color: #C07212;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+   
+}
+
+button:hover{
+    background-color: #5a370d ;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px;
+    transition-duration: 0.5s;
+}
